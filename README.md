@@ -46,7 +46,7 @@ Before running the project, ensure you have the following installed:
 3.  **Environment Configuration:**
     Ensure you have a `.env` file in the root directory with your database connection string:
     ```env
-    DATABASE_URL='postgresql://<user>:<password>@<host>/<dbname>?sslmode=require'
+  
     ```
 
 4.  **Database Setup:**
@@ -62,13 +62,13 @@ Before running the project, ensure you have the following installed:
     ```bash
     node server/index.js
     ```
-    *The server runs on http://localhost:3001*
+    *The server runs on http://localhost:port
 
     **Terminal 2 (Frontend):**
     ```bash
     npm run dev
     ```
-    *The app runs on http://localhost:5173*
+    *The app runs on http://localhost:port
 
 ## 📖 Usage Guide
 
