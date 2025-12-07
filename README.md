@@ -43,19 +43,13 @@ Before running the project, ensure you have the following installed:
     npm install
     ```
 
-3.  **Environment Configuration:**
-    Ensure you have a `.env` file in the root directory with your database connection string:
-    ```env
-  
-    ```
-
-4.  **Database Setup:**
+3.  **Database Setup:**
     Initialize the database tables (Users, Accounts, Transactions).
     ```bash
     node scripts/db-setup.js
     ```
 
-5.  **Start the Application:**
+4.  **Start the Application:**
     You need to run both the backend server and the frontend client.
 
     **Terminal 1 (Backend):**
